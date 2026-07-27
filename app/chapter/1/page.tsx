@@ -18,7 +18,7 @@ export default function Chapter1() {
       next={{ href: "/chapter/2", title: "تفسیرپذیری" }}
     >
       <div>
-        <div className="chapter-eyebrow">CHAPTER 01</div>
+        <div className="chapter-eyebrow">فصل ۱</div>
         <h1 id="intro" className="chapter-title" style={{ scrollMarginTop: 80 }}>
           مقدمه
         </h1>

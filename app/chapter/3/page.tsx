@@ -38,7 +38,7 @@ export default function Chapter3() {
     >
       <div>
         <div className="chapter-eyebrow" style={{ background: "#ECFDF5", color: "#059669" }}>
-          CHAPTER 03
+          فصل ۳
         </div>
         <h1 id="intro" className="chapter-title" style={{ scrollMarginTop: 80 }}>
           مدل‌های تفسیرپذیر

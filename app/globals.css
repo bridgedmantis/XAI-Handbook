@@ -496,7 +496,6 @@ body {
   font-size: 13px;
   font-weight: 700;
   margin-bottom: 14px;
-  font-family: 'JetBrains Mono', monospace;
 }
 
 .chapter-title {
@@ -1253,4 +1252,212 @@ code.inline-code {
   color: var(--accent-primary);
   text-decoration: none;
   font-weight: 600;
+}
+
+/* ================================
+   Chapter Subsection Heading
+================================ */
+
+.subsection-heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+  color: #1f2937;
+  scroll-margin-top: 80px;
+}
+
+
+/* ================================
+   Content Tables
+================================ */
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+
+
+.content-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  direction: rtl;
+}
+
+
+.content-table th {
+  padding: 0.9rem;
+  text-align: center;
+  font-weight: 700;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+}
+
+
+.content-table td {
+  padding: 0.85rem;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+  line-height: 1.8;
+}
+
+
+.content-table tr:hover {
+  background: #f9fafb;
+}
+
+
+
+/* ================================
+   Info Box Variants
+================================ */
+
+
+.info-box {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+
+  padding: 1.2rem 1.4rem;
+
+  margin: 1.8rem 0;
+
+  border-radius: 12px;
+
+  line-height: 1.9;
+
+  font-size: 0.95rem;
+}
+
+
+.info-icon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+
+.info-content strong {
+  font-weight: 700;
+}
+
+
+
+/* Blue info box */
+
+.info-box.blue {
+
+  background: #eff6ff;
+
+  border-right: 4px solid #2563eb;
+
+  color: #1e3a8a;
+
+}
+
+
+
+/* Gold warning box */
+
+.info-box.gold {
+
+  background: #fffbeb;
+
+  border-right: 4px solid #d97706;
+
+  color: #78350f;
+
+}
+
+
+
+/* Green success box */
+
+.info-box.green {
+
+  background: #ecfdf5;
+
+  border-right: 4px solid #059669;
+
+  color: #065f46;
+
+}
+
+
+
+/* ================================
+   Lists
+================================ */
+
+.list {
+
+  margin: 1rem 0 1.5rem;
+
+  padding-right: 1.8rem;
+
+  line-height: 2;
+
+}
+
+
+.list li {
+
+  margin-bottom: 0.5rem;
+
+}
+
+
+
+/* ================================
+   Inline Terms
+================================ */
+
+.term-inline {
+
+  font-weight: 600;
+
+  color: #7c3aed;
+
+}
+
+
+
+/* ================================
+   Responsive
+================================ */
+
+
+@media (max-width: 768px) {
+
+
+  .subsection-heading {
+
+    font-size: 1.1rem;
+
+  }
+
+
+  .info-box {
+
+    padding: 1rem;
+
+    font-size: 0.9rem;
+
+  }
+
+
+  .content-table {
+
+    font-size: 0.85rem;
+
+  }
+
 }

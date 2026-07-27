@@ -167,9 +167,9 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
           ))}
 
           <div className="sidebar-footer">
-            ساخته‌شده بر اساس کتاب<br />
-            <a href="https://christophm.github.io/interpretable-ml-book/" target="_blank" rel="noreferrer">
-              Interpretable Machine Learning
+            ساخته‌شده با 💜 توسط<br />
+            <a href="https://momehmandoost-eight.vercel.app/" target="_blank" rel="noreferrer">
+              محمد مهماندوست
             </a>
           </div>
         </div>

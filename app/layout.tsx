@@ -74,9 +74,8 @@ export default function RootLayout({
               </button>
 
               <Link href="/" className="logo">
-                <span className="logo-mark">X</span>
                 <span>
-                  <span className="logo-text-accent">XAI</span>Handbook
+                  <span className="logo-text-accent"> یادگیری ماشین </span>تفسیرپذیر 
                 </span>
               </Link>
             </div>

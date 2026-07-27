@@ -21,7 +21,7 @@ export default function Chapter2() {
     >
       <div>
         <div className="chapter-eyebrow" style={{ background: "#F5F3FF", color: "#7C3AED" }}>
-          CHAPTER 02
+          فصل دوم
         </div>
         <h1 id="intro" className="chapter-title" style={{ scrollMarginTop: 80 }}>
           تفسیرپذیری
